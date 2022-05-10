@@ -29,13 +29,10 @@ if SEARCH_PLUGINS is not None:
 SITES = {
     "1337x": "1337x",
     "yts": "YTS",
-    "eztv": "EzTv",
     "tgx": "TorrentGalaxy",
     "torlock": "Torlock",
     "piratebay": "PirateBay",
     "nyaasi": "NyaaSi",
-    "rarbg": "Rarbg",
-    "ettv": "Ettv",
     "zooqle": "Zooqle",
     "kickass": "KickAss",
     "bitsearch": "Bitsearch",
@@ -44,10 +41,12 @@ SITES = {
     "limetorrent": "LimeTorrent",
     "torrentfunk": "TorrentFunk",
     "torrentproject": "TorrentProject",
+    "libgen": "Libgen",
+    "ybt": "YourBittorrent",
     "all": "All"
 }
 
-TELEGRAPH_LIMIT = 300
+TELEGRAPH_LIMIT = 999999
 
 
 def torser(update, context):
